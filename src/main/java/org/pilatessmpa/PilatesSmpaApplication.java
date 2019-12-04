@@ -1,4 +1,4 @@
-package org.pilatessmpa.pilatessmpa;
+package org.pilatessmpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
