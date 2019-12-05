@@ -1,0 +1,128 @@
+@font-face {
+    font-family: texto;
+    src: url(/font/FuturaLT.ttf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(/font/FuturaLT-Bold.ttf);
+}
+@font-face {
+    font-family: medio;
+    src: url(/font/FuturaLT-Book.ttf);
+}
+@font-face {
+    font-family: placa;
+    src: url(/font/FuturaLT-Condensed.ttf);
+}
+
+* {
+    outline: 0;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    color: -internal-root-color;
+}
+body {
+    font-family: texto;
+    overflow-x: hidden;
+}
+.header-301 .menu-301 .logo-301 {
+    border-bottom: 1px solid;
+    border-color: #c03426;
+    text-align: right;
+    padding: 0;
+    margin: 100px 0 0;
+    float: left;
+    width: 100%;
+}
+
+.header-301 .menu-301 .logo-301 a {
+    width: 60px;
+    height: 55px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 121px 0 0;
+    padding: 0;
+    border: 0;
+    background: url(/img/301.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.no-view-301 {
+    display: none;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.header-301 .menu-301 li a {
+    color: #d1d3d4;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 18px 12px;
+    font-family: titulo;
+    font-size: 12px;
+    display: inline-block;
+    /*transition: all 1.5s;*/
+}
+
+.header-301 .search-301 .form-301 input#s {
+    width: 1050px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    background: 0 0;
+    padding: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: texto;
+    letter-spacing: 1px;
+}
+
+.header-301 .menu-301 .items-301 {
+    text-align: center;
+}
+
+.header-301 .menu-301 li {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+
+ul, ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team-301 .col-301.center-301 span {
+    font-family: titulo;
+}
+
+.header-301 .menu-301 li.current_page_item a:hover {
+    background: #fff;
+    color: #c03426;
+}
+.header-301 .menu-301 li a:hover {
+    color: #c03426;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
