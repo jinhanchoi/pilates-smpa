@@ -137,3 +137,4 @@ HELP.md
 /.idea/
 /.idea/workspace.xml
 /.idea/workspace.xml
+.mvn/wrapper/maven-wrapper.jar
