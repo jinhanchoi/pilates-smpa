@@ -14,18 +14,37 @@
     font-family: placa;
     src: url(/font/FuturaLT-Condensed.ttf);
 }
-
-* {
-    outline: 0;
+.container{
+    background-image: url(http://reborn-pilates.co.kr/wp-content/uploads/2018/01/타이틀-이미지_3.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100.1%;
+    height: 100.1%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
+/*html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {*/
+/*    vertical-align: baseline;*/
+/*    font-family: inherit;*/
+/*    font-weight: inherit;*/
+/*    font-style: inherit;*/
+/*    font-size: 100%;*/
+/*    outline: 0;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    border: 0;*/
+/*}*/
+
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-html {
-    color: -internal-root-color;
-}
+
 body {
     font-family: texto;
     overflow-x: hidden;
@@ -35,24 +54,27 @@ body {
     border-color: #c03426;
     text-align: right;
     padding: 0;
-    margin: 100px 0 0;
+    margin: 0 0 0 0;
     float: left;
     width: 100%;
 }
 
 .header-301 .menu-301 .logo-301 a {
-    width: 60px;
-    height: 55px;
+    /*width: 100px;*/
+    /*height: 55px;*/
+    width: 350px;
+    height: 100px;
     display: inline-block;
     cursor: pointer;
     margin: 0 121px 0 0;
     padding: 0;
     border: 0;
-    background: url(/img/301.svg);
+    background: url(/img/1575554950841.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
+    fill: #c03426;
 }
 
 .no-view-301 {
@@ -97,7 +119,6 @@ a, a:visited, a:hover, a:active {
     text-align: center;
 }
 
-
 ul, ul li {
     margin: 0;
     padding: 0;
@@ -108,20 +129,38 @@ ul, ul li {
     font-family: titulo;
 }
 
+.header-301 .menu-301 li.current_page_item a {
+    background: #c03426;
+    color: #fff;
+}
 .header-301 .menu-301 li.current_page_item a:hover {
     background: #fff;
     color: #c03426;
 }
+.header-301 .menu-301 li.current_page_item:last-child a {
+    color: #c03426;
+    background: #fff;
+}
+
 .header-301 .menu-301 li a:hover {
     color: #c03426;
 }
 
-
+.content-301 {
+    opacity: 0;
+}
+.section-301 {
+    width: auto;
+    margin: 0 auto;
+}
+.header-301{
+    top: 0px;
+}
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
